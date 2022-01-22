@@ -1,8 +1,5 @@
-// input
-var userInput = prompt('Give me your name')
+var btnTranslate = document.querySelector('#btn-Translate');
 
-//processing
-var welcomeMessage = 'hey ' + userInput + ' welcome' 
-
-//output
-alert(welcomeMessage)
+btnTranslate.addEventListener("click", function clickEventHandler(){
+    console.log("clicked!") 
+});
