@@ -1,3 +1,8 @@
-console.log("is the code working")
+// input
+var userInput = prompt('Give me your name')
 
-alert("huiiiiii")
+//processing
+var welcomeMessage = 'hey ' + userInput + ' welcome' 
+
+//output
+alert(welcomeMessage)
