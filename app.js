@@ -1,14 +1,14 @@
 
 var btnTranslate = document.querySelector('#btn-Translate');
-var txtInput = document.querySelector('#text-input')
+var txtInput = document.querySelector('#text-input');
+var outputDiv = document.querySelector('.output');
 
 
 
 
 
 function clickHandeler(){
-    console.log("clicked");
-    console.log('input', txtInput.value)
+  outputDiv.innerText = 'asdhayfy ' + txtInput.value;
 
 }
 
