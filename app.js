@@ -15,3 +15,4 @@ function clickHandeler(){
 
 btnTranslate.addEventListener("click", clickHandeler)
    
+
