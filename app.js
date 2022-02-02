@@ -8,8 +8,7 @@ var outputDiv = document.querySelector('.output');
 
 
 function clickHandeler(){
-  outputDiv.innerText = 'asdhayfy ' + txtInput.value;
-
+  outputDiv.innerText = 'ASDGFGJAFD ' + txtInput.value;
 }
 
 
