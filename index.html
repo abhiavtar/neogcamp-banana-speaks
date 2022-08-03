@@ -4,46 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>banana speaks</title>
-    <style>
-      textarea {
-        width: 90%;
-        display: inline;
-        height: 10vh;
-        margin: 1rem;
-        padding: 0.5rem;
-      }
-
-      .output{
-          border: 1px solid rgb(0, 0, 0);
-          height: 9vh;
-          width: 90%;
-          padding: 1rem;
-          margin: 0.9rem;
-
-      }
-    </style>
   </head>
   <body>
-    <h1>Talk banana</h1>
-    <textarea id="text-input"
-      placeholder="put your sentence here and we will convert this to bananna"
-    ></textarea><br>
-    <button id="btn-Translate">translate</button>
+    <header>
+      <div class="container">
+        <div class="navbar">
+          <img src="banana-svgrepo-com (1).svg" width="35px" alt="" srcset="" />
+          <h1>Talk banana</h1>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <textarea
+          id="text-input"
+          placeholder="put your sentence here and we will convert this to bananna"
+        ></textarea
+        ><br />
 
-    <div style="font-size: larger;">out put will come here 🥺</div>
-    <div class="output"></div>
+        <button id="btn-Translate">translate</button>
 
+        <div style="font-size: larger">out put will come here 🥺</div>
+        <div class="output"></div>
+      </div>
+    </main>
 
-
-
-
-
-
-
-
-
-
+    <footer></footer>
 
     <script src="app.js"></script>
   </body>
