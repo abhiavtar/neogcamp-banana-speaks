@@ -18,10 +18,10 @@ header{
 
 .navbar{
     display: flex;
+    gap: 1rem;
     height: 5rem;
-    
-    
 }
+
 .main__content{
     display: flex;
     flex-direction: column;
@@ -42,12 +42,8 @@ header{
 
 
 
-
-
-
-
 textarea {
-    width: 90%;
+    width: 100%;
     display: inline;
     height: 22vh;
     margin: 1rem;
