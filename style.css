@@ -1,39 +1,43 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #ffffff;
 }
-.container{
+
+.container {
     width: 60%;
     margin: 0 auto;
 }
 
-header{
+header {
     background:
-     #FF6059;
+        #FF6059;
 }
 
-.navbar{
+.navbar {
     display: flex;
     gap: 1rem;
     height: 5rem;
 }
 
-.main__content{
+
+
+.main__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.btn{
+.btn {
     display: flex;
     justify-content: center;
 }
 
-.btn > button{
+.btn>button {
     border: 1px solid #ccc;
     border-radius: 50px;
     padding: 0.9rem 2rem;
@@ -51,16 +55,16 @@ textarea {
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-  }
+}
 
-  .output{
-      width: 90%;
-      padding: 1rem;
-      margin: 0.9rem;
-      height: 22vh;
-      margin: 1rem;
-      padding: 0.5rem;
-      border: 2px solid #ccc;
-      border-radius: 4px;
-      background-color: #f8f8f8;
-  }
+.output {
+    width: 90%;
+    padding: 1rem;
+    margin: 0.9rem;
+    height: 22vh;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
