@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #fefefe;
 }
 
 .container {
@@ -14,15 +14,22 @@ body {
 }
 
 header {
-    background:
-        #FF6059;
+    background: #FF6059;
+    /* border-radius: 0px 0px 10px 10px; */
 }
 
 .navbar {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
     gap: 1rem;
-    height: 5rem;
+    height: 4rem;
+
 }
+
+
+
 
 
 
@@ -30,41 +37,58 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: 1px solid #9f9f9f;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.text__area {
+    /* border: 1px solid black; */
+}
+
+textarea {
+    width: 95%;
+    height: 22vh;
+    margin: 1rem;
+    padding: 0.5rem;
+    outline: none;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
 }
 
 .btn {
     display: flex;
     justify-content: center;
+    width: 95%;
 }
 
 .btn>button {
     border: 1px solid #ccc;
     border-radius: 50px;
     padding: 0.9rem 2rem;
+    background-color: #fb8680;
+    cursor: pointer;
+}
+
+.btn>button:hover {
+    background-color: #FF6059;
 }
 
 
 
-
-textarea {
-    width: 100%;
-    display: inline;
-    height: 22vh;
-    margin: 1rem;
-    padding: 0.5rem;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-}
 
 .output {
-    width: 90%;
+    width: 95%;
     padding: 1rem;
     margin: 0.9rem;
     height: 22vh;
     margin: 1rem;
     padding: 0.5rem;
     border: 2px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
     background-color: #f8f8f8;
 }
