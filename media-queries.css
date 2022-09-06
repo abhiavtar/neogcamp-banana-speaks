@@ -1,0 +1,35 @@
+ @media (max-width: 769px) {
+
+     textarea,
+     .output,
+     .btn {
+         width: 92%;
+     }
+
+     .btn {
+         margin-left: 0.5rem;
+     }
+ }
+
+
+
+
+ @media (max-width: 480px) {
+
+     textarea,
+     .output {
+         width: 90%;
+     }
+
+
+
+     .btn {
+         width: 92%;
+         margin-left: 0.5rem;
+     }
+
+     .navbar {
+         gap: 0.5rem;
+     }
+
+ }
